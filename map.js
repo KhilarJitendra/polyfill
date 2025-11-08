@@ -21,7 +21,7 @@ Polyfil -
   }
 
  const newArr = [1,2,3,4];
- const resultnew = arr.map(cb);
+ const resultnew = arr.myMap(cb);
  console.log(resultnew);
 
 ---------END------->
