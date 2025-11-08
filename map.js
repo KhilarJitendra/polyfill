@@ -17,7 +17,7 @@ console.log(result); // [1, 4, 9, 16]
 Array.prototype.myMap = function (callback) {
   const result = [];
   for (let i = 0; i < this.length; i++) {
-    result.push(callback(this[i], i, this)); // ✅ fixed missing parenthesis
+    result.push(callback(this[i], i, this));
   }
   return result;
 };
