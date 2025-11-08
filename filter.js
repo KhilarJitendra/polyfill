@@ -24,3 +24,5 @@ Polyfill -
  const newArr = [1,2,3,4];
  const resultnew = arr.myFilter(cb);
  console.log(resultnew);
+
+---------END------->
